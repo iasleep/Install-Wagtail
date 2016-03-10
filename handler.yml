@@ -1,0 +1,5 @@
+---
+- hosts: hosts
+  tasks:
+  - script: install_wagtail.sh /root
+    sudo: yes
